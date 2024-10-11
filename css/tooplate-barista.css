@@ -13,7 +13,7 @@ https://www.tooplate.com/view/2137-barista-cafe
   --white-color:                  #ffffff;
   --primary-color:                #BC6C25;
   --secondary-color:              #DDA15E;
-  --section-bg-color:             #b78752;
+  --section-bg-color:             #f5eac5;  
   --custom-btn-bg-color:          #BC6C25;
   --custom-btn-bg-hover-color:    #DDA15E;
   --dark-color:                   #000000;
@@ -343,7 +343,7 @@ strong {
 }
 
 .navbar .container {
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(161, 1, 1, 0.477);
   border-radius: var(--border-radius-medium);
   padding: 15px 30px;
 }
@@ -647,9 +647,9 @@ strong {
   cursor: pointer;
 }
 
-.team-block-wrap:hover .team-block-image {
+/* .team-block-wrap:hover .team-block-image {
   transform: scale(1.2);
-}
+} */
 
 .team-block-image-wrap {
   width: 100%;
@@ -664,7 +664,7 @@ strong {
 }
 
 .team-block-info {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(188, 108, 37, 1));
+  /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(188, 108, 37, 1));*/
   position: absolute;
   z-index: 2;
   top: 0;
@@ -746,7 +746,7 @@ strong {
   REVIEWS              
 -----------------------------------------*/
 .reviews-section {
-  background-color: #7c5c52;
+  background-color: #7c5252;
 }
 
 .reviews-block {
