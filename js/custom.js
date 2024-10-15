@@ -11,7 +11,7 @@
     $(function() {
       $('.hero-slides').vegas({
           slides: [
-            { src: 'images/carousel/Sandwiches_miga-4.png' },  
+            { src: 'images/carousel/lechuga2.jpeg' },  
             { src: 'images/carousel/Sandwiches_miga-3.jpeg' },
             { src: 'images/carousel/Sandwiches_miga-5.jpg' }
           ],
