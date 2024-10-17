@@ -137,6 +137,12 @@ strong {
   url("../images/fondo/fondo-4.jpg");
   background-size: cover;
 }
+#section_3 {  
+  background: linear-gradient(rgba(34, 17, 0, 0.89), rgba(34, 17, 0, 0.89)),
+  url("../images/fondo/fondo-4.jpg");
+  object-fit: cover;
+}
+
 
 
 .section-padding {
@@ -692,13 +698,13 @@ strong {
   OUR MENU              
 -----------------------------------------*/
 .menu-section {
-  background-image: url('../images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+ /*background-image: url('../images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg');*/
+ /* background-repeat: no-repeat;
+  background-size: cover;*/
 }
 
 .menu-block-wrap {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.432);
   border-radius: var(--border-radius-medium);
   padding: 45px;
 }
@@ -708,7 +714,7 @@ strong {
 }
 
 .menu-block h6 {
-  color: var(--white-color);
+  color: var(--white-color);  
 }
 
 .menu-block small {
