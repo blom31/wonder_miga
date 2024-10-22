@@ -11,15 +11,15 @@ https://www.tooplate.com/view/2137-barista-cafe
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #BC6C25;
-  --secondary-color:              #DDA15E;
+  --primary-color:                #870c0c;
+  --secondary-color:              #ffffff;
   --section-bg-color:             #f5eac5;  
-  --custom-btn-bg-color:          #BC6C25;
-  --custom-btn-bg-hover-color:    #DDA15E;
+  --custom-btn-bg-color:          #25bc4d;
+  --custom-btn-bg-hover-color:     #870c0c;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
-  --link-hover-color:             #E76F51;
+  --link-hover-color:             #870c0c;
 
   --body-font-family:             'Plus Jakarta Sans', sans-serif;
 
@@ -46,7 +46,7 @@ https://www.tooplate.com/view/2137-barista-cafe
 
 body {
   /* background-color: var(--white-color); */
-  background-image: url(../images/fondo/fondo-1.jpg);
+  background-image: url(../images/fondo/fondo-4.jpg);
   background-attachment: fixed;
   font-family: var(--body-font-family); 
 } 
@@ -143,8 +143,8 @@ strong {
 
 
 .section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /*
 .section-bg {
@@ -798,7 +798,7 @@ strong {
 .reviews-block-info p {
   font-size: var(--btn-font-size);
   font-style: italic;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(8, 0, 0, 0.75);
 }
 
 .reviews-group i {
@@ -864,6 +864,20 @@ strong {
   background-position: center;
   background-size: cover;
 } */
+
+.delivery{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.delivery img{
+  width: 300px;
+  border-radius: 15px
+}
+.delivery iframe{
+  width: 600px;
+  border-radius: 15px
+}
 
 .google-map {
   border-radius: var(--border-radius-medium);
