@@ -372,7 +372,7 @@ strong {
 }
 
 .navbar-brand-image {
-  width: 48px;
+  width: 68px;
   height: auto;
   margin-right: 10px;
 }
@@ -1064,7 +1064,15 @@ strong {
 .social-icon-link span {
   display: block;
 }
-
+.whatsapp{
+  position: fixed;
+  bottom: 25px;
+  right: 15px;
+  width: 120px;
+}
+.whatsapp img{
+  width: 120%;
+}
 
 /*---------------------------------------
   RESPONSIVE STYLES               
