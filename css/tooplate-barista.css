@@ -367,9 +367,9 @@ strong {
   color: var(--white-color);
 }
 
-.navbar .navbar-brand-image {
+/* .navbar .navbar-brand-image {
   filter: brightness(0) invert(1);
-}
+} */
 
 .navbar-brand-image {
   width: 68px;
@@ -545,20 +545,27 @@ strong {
   min-height: 620px;
   text-align: center;
 }
-/* 
- .hero-section::after {
-  background-color: rgba(78, 233, 6, 0.603);
+
+/* .hero-section::after {
+  background-color: rgba(24, 24, 24, 0.603);
   border-radius: var(--border-radius-medium);
   content: "";
   position: absolute;
   top: 55%;
   left: 50%;
-  transform: translate(-55%, -50%) rotate(45deg);
-  width: 250px;
-  height: 350px;
+  transform: translate(-55%, -50%) rotate(60deg);
+  width: 200px;
+  height: 300px;
   pointer-events: none;
-}  */
+}   */
+.logo-centro{
 
+  margin-top: 5em;
+  width: 20em;
+}
+.logo-centro img{
+  width: 100%;
+}
 @media screen and (min-width: 991px) {
   .hero-section {
     height: 100vh;
@@ -1067,13 +1074,21 @@ strong {
 .whatsapp{
   position: fixed;
   bottom: 25px;
+  left: 15px;
+  width: 80px;
+}
+.whatsapp img{
+  width: 100%;
+}
+.icono{
+  position: fixed;
+  bottom: 25px;
   right: 15px;
   width: 120px;
 }
-.whatsapp img{
-  width: 120%;
+.icono img{
+  width: 100%;
 }
-
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
