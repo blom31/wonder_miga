@@ -705,7 +705,7 @@ strong {
   width: 50px;
   }
 .tabla-col2{
-  width: 350px;
+  width: 360px;
   }
 .text{
   list-style: none;
@@ -715,7 +715,7 @@ strong {
 .menu-block-wrap {
   background: rgba(0, 0, 0, 0.432);
   border-radius: var(--border-radius-medium);
-  padding: 45px;
+  padding: 35px;
 }
 
 .menu-block .border-top {
@@ -769,7 +769,6 @@ strong {
 -----------------------------------------*/
 .reviews-section {
   /* background-color: #7c5252; */
-  display: none;
 }
 
 .reviews-block {
