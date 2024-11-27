@@ -692,7 +692,6 @@ strong {
 }
 
 .reviews-block {
-  background-color: var(--section-bg-color);
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
@@ -703,13 +702,12 @@ strong {
 }
 
 .reviews-block-image-wrap {
-  background-image: url('../images/mid-section-waitress-wiping-espresso-machine-with-napkin-cafa-c.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 30px;
+  width: 470px;
 }
-
+.reviews-block-image-wrap img{
+  width: 100%;
+  object-fit: cover;
+}
 .reviews-block-image {
   border-radius: var(--border-radius-large);
   width: 65px;
@@ -719,7 +717,7 @@ strong {
 }
 
 .reviews-block-info {
-  padding: 20px 30px;
+  padding: 10px 10px;
 }
 
 .reviews-block-info p {
@@ -728,9 +726,7 @@ strong {
   color: rgba(8, 0, 0, 0.75);
 }
 
-.reviews-group i {
-  color: var(--white-color);
-}
+
 
 
 /*---------------------------------------
@@ -792,7 +788,7 @@ strong {
   justify-content: space-around;
 }
 .delivery img{
-  width: 300px;
+  width: 450px;
   border-radius: 15px
 }
 .delivery iframe{
