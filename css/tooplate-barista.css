@@ -687,10 +687,6 @@ strong {
 /*---------------------------------------
   REVIEWS              
 -----------------------------------------*/
-.reviews-section {
-  /* background-color: #7c5252; */
-}
-
 .reviews-block {
   border-radius: var(--border-radius-medium);
   position: relative;
@@ -703,9 +699,11 @@ strong {
 
 .reviews-block-image-wrap {
   width: 470px;
+  height: 300px;
 }
 .reviews-block-image-wrap img{
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .reviews-block-image {
@@ -725,9 +723,6 @@ strong {
   font-style: italic;
   color: rgba(8, 0, 0, 0.75);
 }
-
-
-
 
 /*---------------------------------------
   BOOKING SECTION              
@@ -840,71 +835,6 @@ strong {
 }
 
 /*---------------------------------------
-  CUSTOM FORM               
------------------------------------------*/
-.custom-form .form-control {
-  color: var(--p-color);
-  border-radius: var(--border-radius-small);
-  margin-bottom: 30px;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  box-shadow: none;
-  outline: none;
-  transition: all 0.3s;
-}
-
-.custom-form .form-control:hover,
-.custom-form .form-control:focus {
-  background: var(--primary-color);
-  border-color: transparent;
-}
-
-.custom-form .form-label {
-  color: var(--white-color);
-  font-style: italic;
-  margin-bottom: 15px;
-}
-
-.custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
-  border: none;
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-size: var(--form-btn-font-size);
-  font-weight: var(--font-weight-bold);
-  transition: all 0.3s;
-  margin-bottom: 0;
-}
-
-.custom-form button[type="submit"]:hover,
-.custom-form button[type="submit"]:focus {
-  background: var(--white-color);
-  border-color: transparent;
-  color: var(--primary-color);
-}
-
-.contact-form .form-control,
-.booking-form .form-control {
-  background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.25);
-}
-
-.booking-form .form-control {
-  color: var(--white-color);
-}
-
-.custom-form input::-webkit-input-placeholder,
-.custom-form textarea::-webkit-input-placeholder {
-  color: var(--white-color);
-}
-
-.booking-form input:-moz-placeholder,
-.booking-form textarea:-moz-placeholder {
-  color: var(--white-color);
-}
-
-
-/*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
@@ -927,8 +857,6 @@ strong {
   color: rgba(255, 255, 255, 0.75);
   font-size: var(--btn-font-size);
 }
-
-
 
 .copyright-text {
   color: rgba(255, 255, 255, 0.75);
@@ -1071,6 +999,16 @@ strong {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .reviews-block-info {
+    padding: 10px;
+  }
+  .reviews-block-image-wrap{
+    width: 630px;
+  }
+  .reviews-block-image-wrap img{
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1079,13 +1017,18 @@ strong {
     padding: 12px 20px;
   }
 
-  .menu-block-wrap,
-  .reviews-block-image-wrap,
+  
   .reviews-block-info {
-    padding: 20px;
+    padding: 10px;
+  }
+  .reviews-block-image-wrap{
+    width: 230px;
+  }
+  .reviews-block-image-wrap img{
+    width: 100%;
+    object-fit: cover;
   }
 }
-
 
 @media screen and (max-width: 578px) {
   .navbar .container,
@@ -1094,7 +1037,6 @@ strong {
     margin-left: 10px;
   }
 }
-
 
 @media screen and (max-width: 480px) {
   h1 {
@@ -1117,6 +1059,9 @@ strong {
     font-size: 20px;
   }
 
+  .delivery img{
+    width: 380px;
+  }
   .hero-section::after {
     width: 200px;
     height: 200px;
@@ -1155,3 +1100,9 @@ strong {
   }
 }
 
+@media screen and (max-width: 375px){
+
+  .delivery img{
+    width: 300px;
+  }
+}
