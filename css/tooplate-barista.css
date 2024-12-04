@@ -240,7 +240,7 @@ strong {
 
 .timeline-content {
   padding: 5px;
-  background-color: var(--white-color);
+  background: rgba(0, 0, 0, 0.432);
   position: relative;
   border-radius: var(--border-radius-medium);
 }
@@ -568,7 +568,6 @@ strong {
   margin: auto 15px 0 15px;
 }
 
-
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
@@ -691,13 +690,11 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-}
+  }
 
-.reviews-block .border-top {
-  border-top-color: rgba(255, 255, 255, 0.35) !important;
-}
 
 .reviews-block-image-wrap {
+  background: rgba(0, 0, 0, 0.432);
   width: 470px;
   height: 300px;
 }
@@ -721,55 +718,7 @@ strong {
 .reviews-block-info p {
   font-size: var(--btn-font-size);
   font-style: italic;
-  color: rgba(8, 0, 0, 0.75);
-}
-
-/*---------------------------------------
-  BOOKING SECTION              
------------------------------------------*/
-.booking-section {
-  background-image: url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.booking-form-wrap {
-  background-color: rgba(0, 0, 0, 0.65);
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-  margin-top: 100px;
-}
-
-.booking-form {
-  padding: 55px 65px;
-}
-
-.booking-form-image-wrap {
-  position: relative;
-  height: 100%;
-}
-
-.booking-form-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.booking-form-text span {
-  color: var(--white-color);
-  font-size: var(--btn-font-size);
-}
-
-.reservation-page .custom-border-btn {
-  border-color: var(--secondary-color);
-  color: var(--secondary-color);
-}
-
-.reservation-page .custom-border-btn:hover {
-  border-color: transparent;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -925,6 +874,17 @@ strong {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
+@media screen and (max-width: 1440px){
+  .reviews-block-image-wrap{
+  width: 500px;
+  }
+  .reviews-block-image-wrap img{
+    width: 100%;
+    object-fit: cover;
+  }
+  
+}
+
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: 62px;
@@ -1016,8 +976,6 @@ strong {
     font-size: 14px;
     padding: 12px 20px;
   }
-
-  
   .reviews-block-info {
     padding: 10px;
   }
@@ -1079,10 +1037,6 @@ strong {
     flex-direction: column;
   }
 
-  .reviews-block-image {
-    margin-bottom: 15px;
-  }
-
   .timeline-container {
     padding-left: 55px;
   }
@@ -1100,9 +1054,35 @@ strong {
   }
 }
 
+@media screen and (max-width: 425px){
+  .reviews-block-image-wrap{
+  width: 350px;
+  }
+  .reviews-block-image-wrap img{
+    width: 100%;
+    object-fit: cover;
+  }
+  
+}
 @media screen and (max-width: 375px){
 
+  .reviews-block-image-wrap{
+    width: 260px;
+  }
+  .reviews-block-image-wrap img{
+    width: 100%;
+    object-fit: cover;
+  }
   .delivery img{
     width: 300px;
+  }
+}
+@media screen and (max-width: 320px){
+
+  .delivery img{
+    width: 250px;
+  }
+  .delivery iframe{
+    width: 250px;
   }
 }
