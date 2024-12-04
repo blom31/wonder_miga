@@ -1,4 +1,3 @@
-
   (function ($) {
   
   "use strict";
@@ -22,17 +21,17 @@
     
     // CUSTOM LINK
     $('.smoothscroll').click(function(){
-      var el = $(this).attr('href');
-      var elWrapped = $(el);
-      var header_height = $('.navbar').height() + 60;
+      let el = $(this).attr('href');
+      let elWrapped = $(el);
+      let header_height = $('.navbar').height() + 60;
   
       scrollToDiv(elWrapped,header_height);
       return false;
   
       function scrollToDiv(element,navheight){
-        var offset = element.offset();
-        var offsetTop = offset.top;
-        var totalScroll = offsetTop-navheight;
+        let offset = element.offset();
+        let offsetTop = offset.top;
+        let totalScroll = offsetTop-navheight;
   
         $('body,html').animate({
         scrollTop: totalScroll
