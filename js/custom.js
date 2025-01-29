@@ -10,9 +10,9 @@
     $(function() {
       $('.hero-slides').vegas({
           slides: [
-            { src: 'images/carousel/lechuga2.jpg' },  
-            { src: 'images/carousel/Sandwiches_miga-3.jpg' },
-            { src: 'images/carousel/Sandwiches_miga-5.jpg' }
+            { src: '../images/carousel/portada-1.jpg' },  
+            { src: '../images/carousel/portada-2.jpg' },
+            { src: '../images/carousel/portada-3.jpg' }
           ],
           timer: false,
           animation: 'kenburns',
