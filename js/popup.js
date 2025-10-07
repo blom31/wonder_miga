@@ -2,9 +2,9 @@ const popup = document.getElementById("popup");
 const close = document.getElementById("close");
 
 // Mostrar el pop-up automáticamente al cargar la página
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", function () {
   popup.style.display = "flex";
-};
+});
 
 // Cerrar con el botón
 close.onclick = function () {
