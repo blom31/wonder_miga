@@ -8,14 +8,20 @@
     });
 
     $(function() {
-      $('.hero-slides').vegas({
-          slides: [
-            { src: '../images/carousel/portada-1.jpg' },
-            { src: '../images/carousel/portada-2.jpg' },
-            { src: '../images/carousel/portada-3.jpg' }
-          ],
-          timer: false,
-          animation: 'kenburns',
+      $(".hero-slides").vegas({
+        slides: [
+          {
+            src: "https://res.cloudinary.com/dv9yjyclh/image/upload/v1760048811/portada-1_lap2uc.jpg",
+          },
+          {
+            src: "https://res.cloudinary.com/dv9yjyclh/image/upload/v1760048810/lechuga2_ear34y.jpg",
+          },
+          {
+            src: "https://res.cloudinary.com/dv9yjyclh/image/upload/v1760048812/portada-3_ldshsa.jpg",
+          },
+        ],
+        timer: false,
+        animation: "kenburns",
       });
     });
     
