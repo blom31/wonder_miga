@@ -10,7 +10,7 @@
     $(function() {
       $('.hero-slides').vegas({
           slides: [
-            { src: '../images/carousel/portada-1.jpg' },  
+            { src: '../images/carousel/portada-1.jpg' },
             { src: '../images/carousel/portada-2.jpg' },
             { src: '../images/carousel/portada-3.jpg' }
           ],
