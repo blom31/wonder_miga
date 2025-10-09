@@ -59,3 +59,21 @@
                         </div>
                     </div>
                 </section> -->
+
+
+
+
+
+
+        /* CLASE PARA BLOQUEAR AMBOS SCROLLS EN DISPOSITIVOS MÓVILES */
+/* .body-no-scroll {
+  overflow: hidden !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Asegúrate de que el body no pueda desbordarse horizontalmente 
+  overflow-x: hidden !important;
+} */        
