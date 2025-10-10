@@ -42,21 +42,9 @@ body {
   font-family: var(--body-font-family);
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* evita líneas o desplazamientos horizontales */
 
-}
-
-.body-no-scroll {
-  overflow: hidden !important;
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  /* Asegúrate de que el body no pueda desbordarse horizontalmente */
-  overflow-x: hidden !important;
 }
 
 /*---------------------------------------
@@ -1189,4 +1177,22 @@ strong {
   .delivery iframe {
     width: 140px;
   }
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+  }
+    .whatsapp {
+      
+      background-color: #25bc4d;
+    }
+}
+@media screen and (max-width: 220px) {
+.icono{
+  width: 80px;
+}
+
+    .whatsapp {
+        width: 50px;
+      background-color: #25bc4d;
+    }
 }
