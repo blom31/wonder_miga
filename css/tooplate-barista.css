@@ -738,7 +738,7 @@ strong {
 -----------------------------------------*/
 @media screen and (max-width: 1440px) {
   .reviews-block-image-wrap {
-    width: 500px;
+    width:100%;
   }
 
   .reviews-block-image-wrap img {
@@ -897,7 +897,7 @@ strong {
 
 
   .delivery img {
-    width: 380px;
+    width: 95%;
   }
 
   .hero-section::after {
@@ -954,11 +954,6 @@ strong {
     width: 100%;
     object-fit: cover;
   }
-
-  .delivery img {
-    width: 300px;
-  }
-
 }
 
 @media screen and (max-width: 320px) {
