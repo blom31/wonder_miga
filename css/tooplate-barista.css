@@ -640,20 +640,11 @@ strong {
   justify-content: space-around;
 }
 
-.delivery img {
+.delivery img, iframe{
   width: 95%;
   border-radius: 20px
 }
 
-.delivery iframe {
-  width: 95%;
-  border-radius: 20px
-}
-
-.google-map {
-  border-radius: var(--border-radius-medium);
-  filter: grayscale(100);
-}
 
 /*---------------------------------------
   SITE FOOTER              
