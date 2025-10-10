@@ -139,6 +139,7 @@ strong {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 /*---------------------------------------
   TIMELINE               
 -----------------------------------------*/
@@ -640,12 +641,12 @@ strong {
 }
 
 .delivery img {
-  width: 450px;
+  width: 95%;
   border-radius: 20px
 }
 
 .delivery iframe {
-  width: 600px;
+  width: 95%;
   border-radius: 20px
 }
 
@@ -823,7 +824,8 @@ strong {
   }
 
   .reviews-block-image-wrap {
-    width: 630px;
+    max-width: 991px;
+    width: 100%;
   }
 
   .reviews-block-image-wrap img {
@@ -843,7 +845,9 @@ strong {
   }
 
   .reviews-block-image-wrap {
-    width: 230px;
+    max-width: 767px;;
+   width: 100%;
+  
   }
 
   .reviews-block-image-wrap img {
@@ -928,7 +932,8 @@ strong {
 
 @media screen and (max-width: 425px) {
   .reviews-block-image-wrap {
-    width: 350px;
+    max-width: 991px;;
+    width: 100%;
   }
 
   .reviews-block-image-wrap img {
@@ -941,7 +946,8 @@ strong {
 @media screen and (max-width: 375px) {
 
   .reviews-block-image-wrap {
-    width: 260px;
+    max-width: 375px;;
+    width: 100%;
   }
 
   .reviews-block-image-wrap img {
@@ -958,18 +964,11 @@ strong {
 @media screen and (max-width: 320px) {
 
   .delivery img {
-    width: 140px;
+    width: 110%;
   }
 
   .delivery iframe {
-    width: 140px;
-  }
-
-}
-
-@media screen and (max-width: 220px) {
-  .icono {
-    width: 80px;
+    width: 110%;
   }
 
 }
