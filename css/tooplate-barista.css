@@ -588,6 +588,11 @@ strong {
 .menu-block strong {
   color: var(--secondary-color);
 }
+.menu-block-wrap {
+  background: rgba(0, 0, 0, 0.432);
+  border-radius: var(--border-radius-medium);
+  padding: 35px;
+}
 
 /*---------------------------------------
   REVIEWS              
